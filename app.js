@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 });
 
 //handling errors for database
-app.use((req, res, next) => {
+app.use((error, req, res, next) => {
   res.status(error.status || 500);
   res.json({
     error: {
