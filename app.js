@@ -20,7 +20,7 @@ app.use("/orders", orderRoutes);
 //handling errror for routes
 app.use((req, res, next) => {
   const error = new Error("Not found");
-  error.status(404);
+  error.status = 404;
   next(error);
 });
 
