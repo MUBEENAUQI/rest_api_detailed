@@ -1,0 +1,22 @@
+{
+  "name": "rest_api_detailed",
+  "version": "1.0.0",
+  "description": "ready to learn more on restful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MUBEENAUQI/rest_api_detailed.git"
+  },
+  "author": "mubeena kabeer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MUBEENAUQI/rest_api_detailed/issues"
+  },
+  "homepage": "https://github.com/MUBEENAUQI/rest_api_detailed#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
